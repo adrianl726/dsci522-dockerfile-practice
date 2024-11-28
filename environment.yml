@@ -1,4 +1,4 @@
-name: docker_practice
+name: test_env
 channels:
   - defaults
   - conda-forge
@@ -6,6 +6,6 @@ dependencies:
   - pandas=2.2.2
   - pandera=0.20.4
   - python=3.11
-  - pip
-  - pip:
-    - deepchecks==0.18.1
+  - conda-lock=2.5.7       
+  - mamba=1.5.11
+  - conda=24.11
